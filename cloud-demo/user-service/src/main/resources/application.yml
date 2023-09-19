@@ -11,6 +11,8 @@ spring:
   cloud:
     nacos:
       server-addr: localhost:8848 # nacos服务地址
+      discovery:
+        cluster-name: HZ # 配置集群名称，也就是机房位置，例如：HZ杭州
 
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
