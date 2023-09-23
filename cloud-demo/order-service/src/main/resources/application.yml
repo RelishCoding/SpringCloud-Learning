@@ -39,3 +39,9 @@ ribbon:
     enabled: true # 开启饥饿加载
     clients: # 指定饥饿加载的服务名称
       - userservice
+
+#feign:
+#  client:
+#    config:
+#      default:
+#        loggerLevel: FULL
