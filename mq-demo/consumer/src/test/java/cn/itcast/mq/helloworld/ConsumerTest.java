@@ -11,7 +11,7 @@ public class ConsumerTest {
         // 1.建立连接
         ConnectionFactory factory = new ConnectionFactory();
         // 1.1.设置连接参数，分别是：主机名、端口号、vhost、用户名、密码
-        factory.setHost("192.168.150.101");
+        factory.setHost("124.220.79.162");
         factory.setPort(5672);
         factory.setVirtualHost("/");
         factory.setUsername("itcast");
@@ -36,6 +36,6 @@ public class ConsumerTest {
                 System.out.println("接收到消息：【" + message + "】");
             }
         });
-        System.out.println("等待接收消息。。。。");
+        System.out.println("等待接收消息......");
     }
 }
